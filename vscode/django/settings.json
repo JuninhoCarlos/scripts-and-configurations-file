@@ -1,0 +1,15 @@
+{
+    "python.pythonPath": "/home/junin/.venvs/proto_core_venv/bin/python", 
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "editor.multiCursorModifier": "alt", //Permitir navegar nas definições com ctrl + click
+    "python.sortImports.args": [
+        "--profile", "black"
+    ],
+    "python.formatting.blackArgs": ["--line-length", "100"],
+    "[python]": {
+       "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+       }
+    }
+}
